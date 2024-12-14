@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-import Hero from './components/hero/Hero'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Hero from './components/hero/Hero';
 import Skills from './components/skills/Skills';
 import Experience from './components/experience/Experience';
 import Language from './components/language/Language';
@@ -10,21 +10,22 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 
 export default function App() {
-  useEffect(()=>{
+  useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 1000, // Animation duration in milliseconds
+      once: true,     // Whether animation should happen only once
     });
-  },[]);
-  return (
-   <main className='bg-[#24292e]'>
-    <Hero /> 
-    <Skills />
-    <Experience />
-    <Language />
-    <Projects />
-    <Contact />
-    <Footer />
-   </main>
-  )
-}
+  }, []);
 
+  return (
+    <main className='bg-[#0d1117] text-[#c9d1d9]'>
+      <Hero /> 
+      <Skills />
+      <Experience />
+      <Language />
+      <Projects />
+      <Contact />
+      <Footer />
+    </main>
+  );
+}
