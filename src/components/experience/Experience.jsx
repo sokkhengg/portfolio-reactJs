@@ -1,28 +1,47 @@
-import React from 'react'
-import img_experience from '../../assets/img_experience.png'
+import React from 'react';
+import { FaBriefcase } from 'react-icons/fa'; // Importing an icon from react-icons
 
 export default function Experience() {
   return (
+    <section id='experience' className='relative overflow-hidden flex flex-col text-[#c9d1d9] body-font bg-[#0d1117] py-16'>
+      {/* Subtle Background Shape using CSS */}
+      <div className='absolute top-10 right-10 h-64 w-64 bg-gradient-to-br from-[#238636] to-[#c9d1d9] blur-3xl opacity-20 rounded-full'></div>
+      <div className='absolute bottom-10 left-10 h-48 w-48 bg-gradient-to-tr from-[#2dba4e] to-[#c9d1d9] blur-3xl opacity-20 rounded-full'></div>
 
-    <section id='experience' className='relative overflow-hidden flex flex-col text-gray-600 body-font'>
-        <div className='absolute top-[100px] left-64 inset-x-0 flex items-start justify-center'>
-            <div className='h-96 w-96 bg-gradient-to-br from-[#ff910a] blur-2xl invisible opacity-40 rounded-full'></div>
-            <div className='h-96 w-96 bg-gradient-to-r from-[#ffdb12] opacity-40 blur-2xl rounded-full'></div>
+      <div className='container mx-auto px-5 flex flex-col md:flex-row items-start'>
+        {/* Icon Section */}
+        <div className='flex flex-col items-center md:items-start md:w-1/3 mb-10 md:mb-0'>
+          <FaBriefcase className='text-6xl text-[#238636] mb-4' />
+          <h1 className='title-font sm:text-4xl text-3xl mb-4 font-bold text-[#c9d1d9]'>Experience</h1>
         </div>
-        <div className='container mx-auto flex px-5 py-24 md:flex-row flex-col items-center'>
-            <div data-aos='fade-right' data-aos-delay='400' className='relative lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0'>
-             <div className='md:h-[450px] h-[400px] md:w-[300px] w-[300px] md:right-36 bg-gradient-to-r from-orange-600 via-yellow-500 to-red-400 absolute rounded-md transform rotate-3 -top-8 shadow-[0_0_40px_rgba(225,165,0,0.7)] z-0'></div>
-            <img src={img_experience} className='object-cover md:w-[300px] md:h-[450px] object-center rounded relative z-10' alt="Experience" />
-            </div>
-        <div data-aos='fade-left' data-aos-delay='400' className='lg:flex-grow md:w-1/2 lg:pl-8 md:pl-8 flex flex-col md:items-start md:text-left items-center text-center '>
-            <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-orange-500 '>Experience</h1>
-            <h2 className='title-font font-bold text-white sm:text-2xl '>2023 :</h2>
-            <p className='mb-8 text-white leading-relaxed '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptate soluta, inventore veritatis quo odio repellat ad atque veniam aspernatur consectetur ipsum quis repellendus necessitatibus, ipsam nulla dolor id laudantium!</p>
-            <h2 className='title-font font-bold text-white sm:text-2xl '>2024 :</h2>
-            <p className='mb-8 text-white leading-relaxed '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptate soluta, inventore veritatis quo odio repellat ad atque veniam aspernatur consectetur ipsum quis repellendus necessitatibus, ipsam nulla dolor id laudantium!</p>
+
+        {/* Experience Details */}
+        <div className='md:w-2/3'>
+          {/* Data Science Intern at CSUF */}
+          <div className='mb-8'>
+            <h2 className='title-font font-semibold text-[#c9d1d9] sm:text-2xl'>Data Science Intern</h2>
+            <h3 className='text-[#8b949e] mb-2'>California State University Fullerton, Fullerton, CA</h3>
+            <span className='text-[#8b949e] mb-2'>May '23 - Jul '23</span>
+            <ul className='list-disc list-inside text-[#c9d1d9]'>
+              <li>Conducted in-depth data analysis using Python and Jupyter Notebook, enabling actionable insights for real-world decision-making.</li>
+              <li>Delivered a 15% increase in investment returns through the development and testing of a Pairs Trading strategy.</li>
+              <li>Collaborated with cross-functional teams to apply statistical methods, enhancing overall project accuracy and outcomes.</li>
+            </ul>
+          </div>
+
+          {/* Tech Support at Best Buy */}
+          <div className='mb-8'>
+            <h2 className='title-font font-semibold text-[#c9d1d9] sm:text-2xl'>Tech Support</h2>
+            <h3 className='text-[#8b949e] mb-2'>Best Buy, Cerritos, CA</h3>
+            <span className='text-[#8b949e] mb-2'>Jul '24 - Nov '24</span>
+            <ul className='list-disc list-inside text-[#c9d1d9]'>
+              <li>Diagnosed and resolved hardware, software, and network issues for customers, achieving a 98% resolution rate.</li>
+              <li>Guided customers through installations and configurations of laptops, printers, and smart home devices, ensuring seamless functionality.</li>
+              <li>Recommended relevant products and protection plans during tech support interactions, increasing revenue by 10%.</li>
+            </ul>
+          </div>
         </div>
-        </div>
+      </div>
     </section>
-
-  )
+  );
 }
