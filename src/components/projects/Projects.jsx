@@ -3,22 +3,22 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { FaGithub } from 'react-icons/fa'; // Importing GitHub icon for project links
-// import cocktailAppImage from '../../assets/Cocktail-App.png'; // Replace with actual image paths
-// import docAuxImage from '../../assets/Doc-Aux.png'; // Replace with actual image paths
+import cocktailAppImage from '../../assets/Cocktail-App.png'; 
+import docAuxImage from '../../assets/Doc-Aux.png'; 
 
 export default function Projects() {
   // List of projects with details matching the GitHub repositories
   const listProjects = [
     {
       id: 1,
-    //   image: cocktailAppImage,
+      image: cocktailAppImage,
       title: 'Cocktail App',
       description: 'A web application that provides real-time cocktail recipes and recommendations using external APIs.',
       githubLink: 'https://github.com/sokkhengg/Cocktail-App',
     },
     {
       id: 2,
-    //   image: docAuxImage,
+      image: docAuxImage,
       title: 'DocAux',
       description: 'A Python and React JS application for skin lesion diagnostics using CNN and TensorFlow.',
       githubLink: 'https://github.com/ethansafai/doc-aux',
