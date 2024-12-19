@@ -27,10 +27,7 @@ Welcome to my personal portfolio! This project showcases my skills, experience, 
   - [Tailwind CSS](https://tailwindcss.com/)
   - [Framer Motion](https://www.framer.com/motion/)
   - [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)
-- **Others:**
   - [React Icons](https://react-icons.github.io/react-icons/)
-  - [PostgreSQL](https://www.postgresql.org/)
-  - [Flask](https://flask.palletsprojects.com/)
 
 ## Installation
 
