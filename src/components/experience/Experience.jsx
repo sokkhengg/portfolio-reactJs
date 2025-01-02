@@ -29,15 +29,19 @@ export default function Experience() {
             </ul>
           </div>
 
-          {/* Tech Support at Best Buy */}
+          {/* Application Developer Intern */}
           <div className='mb-8'>
-            <h2 className='title-font font-semibold text-[#c9d1d9] sm:text-2xl'>Tech Support</h2>
-            <h3 className='text-[#8b949e] mb-2'>Best Buy, Cerritos, CA</h3>
-            <span className='text-[#8b949e] mb-2'>Jul '24 - Nov '24</span>
+            <h2 className='title-font font-semibold text-[#c9d1d9] sm:text-2xl'>Application Developer Intern</h2>
+            <h3 className='text-[#8b949e] mb-2'>Phnom Penh, Cambodia · Hybrid</h3>
+            <span className='text-[#8b949e] mb-2'>Dec '23 - Feb '24</span>
             <ul className='list-disc list-inside text-[#c9d1d9]'>
-              <li>Diagnosed and resolved hardware, software, and network issues for customers, achieving a 98% resolution rate.</li>
-              <li>Guided customers through installations and configurations of laptops, printers, and smart home devices, ensuring seamless functionality.</li>
-              <li>Recommended relevant products and protection plans during tech support interactions, increasing revenue by 10%.</li>
+              <li>Learned API development fundamentals by supporting the creation of REST-based API specifications using Swagger and studying industry standards for integration.
+              </li>
+              <li>Expanded knowledge of secure development practices by shadowing the Security and Infrastructure team in maintaining DevOps servers and addressing application vulnerabilities.
+              </li>
+              <li>Developed testing skills by contributing to unit and integration testing efforts, ensuring system reliability for large-scale applications in the telecommunications sector.
+              </li>
+              <li>Strengthened technical collaboration abilities by participating in meetings with product owners and gained insight into software development lifecycle.</li>
             </ul>
           </div>
         </div>
