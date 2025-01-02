@@ -5,6 +5,7 @@ export default function Navbar() {
   const listNavbar = [
     { name: 'Home', link: '#home' },
     { name: 'Skills', link: '#skills' },
+    { name: 'Education', link: '#education' }, 
     { name: 'Experience', link: '#experience' },
     { name: 'Language', link: '#language' },
     { name: 'Projects', link: '#projects' },
@@ -18,7 +19,8 @@ export default function Navbar() {
     >
       <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center'>
         {/* Branding */}
-        <a className='flex title-font font-medium items-center text-githubText mb-4 md:mb-0'>
+        <a href='#home' className='flex title-font font-medium items-center text-githubText mb-4 md:mb-0'>
+          {/* You can add a logo here if desired */}
           <span className='ml-3 text-3xl font-bold text-githubText'>Portfolio</span>
         </a>
 
@@ -36,11 +38,9 @@ export default function Navbar() {
         </nav>
 
         {/* Contact Button */}
-        <button className='inline-flex items-center py-1 px-7 focus:outline-none text-base text-githubText mt-4 md:mt-0 border border-githubText hover:border-githubGreen hover:text-githubText bg-githubGreen hover:bg-githubHoverGreen rounded-full text-lg font-medium tracking-wide transition-all duration-300'>
-          <a href='#contact' className='flex items-center'>
-            Contact Me
-          </a>
-        </button>
+        <a href='#contact' className='inline-flex items-center py-1 px-7 focus:outline-none text-base text-githubText mt-4 md:mt-0 border border-githubText hover:border-githubGreen hover:text-githubText bg-githubGreen hover:bg-githubHoverBg rounded-full text-lg font-medium tracking-wide transition-all duration-300'>
+          Contact Me
+        </a>
       </div>
     </header>
   );
