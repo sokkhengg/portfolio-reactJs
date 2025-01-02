@@ -39,7 +39,7 @@ export default function Hero() {
                   textShadow: '0px 2px 4px rgba(0, 0, 0, 0.1)',
                 }}
               >
-                Coding the Future, One Line at a Time.
+                Coding Tomorrow, Today.
               </motion.div>
             </div>
            
