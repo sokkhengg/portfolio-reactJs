@@ -17,20 +17,9 @@ export default function Experience() {
 
         {/* Experience Details */}
         <div className='md:w-2/3'>
-          {/* Data Science Intern at CSUF */}
-          <div className='mb-8'>
-            <h2 className='title-font font-semibold text-[#c9d1d9] sm:text-2xl'>Data Science Intern</h2>
-            <h3 className='text-[#8b949e] mb-2'>California State University Fullerton, Fullerton, CA</h3>
-            <span className='text-[#8b949e] mb-2'>May '23 - Jul '23</span>
-            <ul className='list-disc list-inside text-[#c9d1d9]'>
-              <li>Conducted in-depth data analysis using Python and Jupyter Notebook, enabling actionable insights for real-world decision-making.</li>
-              <li>Delivered a 15% increase in investment returns through the development and testing of a Pairs Trading strategy.</li>
-              <li>Collaborated with cross-functional teams to apply statistical methods, enhancing overall project accuracy and outcomes.</li>
-            </ul>
-          </div>
 
-          {/* Application Developer Intern */}
-          <div className='mb-8'>
+        {/* Application Developer Intern */}
+        <div className='mb-8'>
             <h2 className='title-font font-semibold text-[#c9d1d9] sm:text-2xl'>Application Developer Intern</h2>
             <h3 className='text-[#8b949e] mb-2'>Phnom Penh, Cambodia · Hybrid</h3>
             <span className='text-[#8b949e] mb-2'>Dec '23 - Feb '24</span>
@@ -44,6 +33,20 @@ export default function Experience() {
               <li>Strengthened technical collaboration abilities by participating in meetings with product owners and gained insight into software development lifecycle.</li>
             </ul>
           </div>
+          
+          {/* Data Science Intern at CSUF */}
+          <div className='mb-8'>
+            <h2 className='title-font font-semibold text-[#c9d1d9] sm:text-2xl'>Data Science Intern</h2>
+            <h3 className='text-[#8b949e] mb-2'>California State University Fullerton, Fullerton, CA</h3>
+            <span className='text-[#8b949e] mb-2'>May '23 - Jul '23</span>
+            <ul className='list-disc list-inside text-[#c9d1d9]'>
+              <li>Conducted in-depth data analysis using Python and Jupyter Notebook, enabling actionable insights for real-world decision-making.</li>
+              <li>Delivered a 15% increase in investment returns through the development and testing of a Pairs Trading strategy.</li>
+              <li>Collaborated with cross-functional teams to apply statistical methods, enhancing overall project accuracy and outcomes.</li>
+            </ul>
+          </div>
+
+          
         </div>
       </div>
     </section>

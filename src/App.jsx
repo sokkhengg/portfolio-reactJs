@@ -8,6 +8,7 @@ import Language from './components/language/Language';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import Education from './components/education/Education';
 
 export default function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ export default function App() {
     <main className='bg-[#0d1117] text-[#c9d1d9]'>
       <Hero /> 
       <Skills />
+      <Education />
       <Experience />
       <Projects />
       <Language />
