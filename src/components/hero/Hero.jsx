@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Navbar from '../navbar/Navbar';
-import CV from './CV.pdf';
 import img from '../../assets/img.png';
 
 export default function Hero() {
@@ -43,21 +42,7 @@ export default function Hero() {
                 Coding the Future, One Line at a Time.
               </motion.div>
             </div>
-            
-            {/* Download CV Button */}
-            <div className='flex justify-center mt-8'>
-              <a href={CV} download> 
-                <motion.button
-                  whileHover={{ scale: 1.05, boxShadow: '0px 10px 20px rgba(35,134,54,0.7)' }}
-                  whileTap={{ scale: 0.95 }}
-                  className='inline-flex text-[#c9d1d9] bg-[#238636] border-0 py-3 px-8 
-                  focus:outline-none hover:bg-[#161b22] hover:shadow-[0_0_40px_rgba(35,134,54,0.7)]
-                  rounded-full text-lg font-medium tracking-wide transition-all duration-300'
-                >
-                  Download CV
-                </motion.button>
-              </a>
-            </div>
+           
           </div>
           
           {/* Profile Image */}
