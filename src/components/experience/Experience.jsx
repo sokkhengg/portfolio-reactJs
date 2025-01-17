@@ -21,7 +21,7 @@ export default function Experience() {
         {/* Application Developer Intern */}
         <div className='mb-8'>
             <h2 className='title-font font-semibold text-[#c9d1d9] sm:text-2xl'>Application Developer Intern</h2>
-            <h3 className='text-[#8b949e] mb-2'>Phnom Penh, Cambodia · Hybrid</h3>
+            <h3 className='text-[#8b949e] mb-2'>Remote</h3>
             <span className='text-[#8b949e] mb-2'>Dec '23 - Feb '24</span>
             <ul className='list-disc list-inside text-[#c9d1d9]'>
               <li>Learned API development fundamentals by supporting the creation of REST-API using Swagger.</li>
