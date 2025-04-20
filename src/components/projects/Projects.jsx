@@ -5,6 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import { FaGithub } from 'react-icons/fa'; // Importing GitHub icon for project links
 import cocktailAppImage from '../../assets/Cocktail-App.png'; 
 import docAuxImage from '../../assets/Doc-Aux.png'; 
+import portfolioImage from '../../assets/portfolio-project.png'; 
 
 export default function Projects() {
   // List of projects with details matching the GitHub repositories
@@ -18,6 +19,13 @@ export default function Projects() {
     },
     {
       id: 2,
+      image: portfolioImage,
+      title: 'Portfolio Project',
+      description: 'A modern, responsive portfolio website built with React.js, showcasing my projects, skills, and experience. Features clean design, smooth animations, and easy navigation to highlight my work effectively.',
+      githubLink: 'https://github.com/sokkhengg/portfolio-reactJs',
+    },
+    {
+      id: 3,
       image: docAuxImage,
       title: 'DocAux',
       description: 'A Python and React JS application for skin lesion diagnostics using CNN and TensorFlow.',
